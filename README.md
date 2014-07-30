@@ -56,7 +56,7 @@ $userAgent = new phpUserAgent('msnbot/2.0b (+http://search.msn.com/msnbot.htm)')
 $userAgent->getBrowserName() // msnbot
 
 // use current user agent string
-$userAgent = new phpUserAgent($_SERVER['HTTP_USER_AGENT');
+$userAgent = new phpUserAgent($_SERVER['HTTP_USER_AGENT']);
 // this is equivalent to:
 $userAgent = new phpUserAgent();
 ```
